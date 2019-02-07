@@ -12,9 +12,7 @@ public class T66 {
 		int res = 0;
 		int curBuy = a.get(0);
 		for (int i = 1; i < a.size(); i++) {
-			if (a.get(i) - curBuy > res) {
-				res = a.get(i) - curBuy;
-			}
+			res = Math.max(res, a.get(i) - curBuy);
 			curBuy = Math.min(curBuy, a.get(i));
 		}
 		return res;
