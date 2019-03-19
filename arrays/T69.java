@@ -1,10 +1,9 @@
 package arrays;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class T67 {
+public class T69 {
 	public static List<Integer> primes(int n) {
 		List<Integer> res = new ArrayList<>();
 		if (n < 1) {
