@@ -1,4 +1,4 @@
-package arrays;
+package strings;
 
 public class T72 {
 	public static Integer sto10(String s, int base) {

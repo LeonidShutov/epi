@@ -1,4 +1,4 @@
-package arrays;
+package strings;
 
 public class T71 {
 	public static int stoi(String s) {
