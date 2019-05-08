@@ -1,4 +1,4 @@
-package trees.trees;
+package trees;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -61,19 +61,19 @@ public class T103 {
 		return result;
 	}
 
-}
+	static class Node {
+		Node left;
+		Node right;
+		Integer data;
 
-class Node {
-	Node left;
-	Node right;
-	Integer data;
+		public Node(Integer data) {
+			this.data = data;
+		}
 
-	public Node(Integer data) {
-		this.data = data;
+		@Override
+		public String toString() {
+			return "Node{" + "left=" + left + ", right=" + right + ", data=" + data + '}';
+		}
 	}
 
-	@Override
-	public String toString() {
-		return "Node{" + "left=" + left + ", right=" + right + ", data=" + data + '}';
-	}
 }
